@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.prandroid.usvisapointsystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AgeActivity"
+            android:label="@string/title_activity_age"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EducationActivity"
+            android:label="@string/title_activity_education"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".JobActivity"
+            android:label="@string/title_activity_job"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EnglishActivity"
+            android:label="@string/title_activity_english"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NobelActivity"
+            android:label="@string/title_activity_nobel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OlympicsActivity"
+            android:label="@string/title_activity_olympics"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InvesterActivity"
+            android:label="@string/title_activity_invester"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SpousesActivity"
+            android:label="@string/title_activity_spouses"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FinalResultActivity"
+            android:label="@string/title_activity_final"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RefrenceActivity"
+            android:label="@string/title_activity_ref"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <!--<meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />-->
+      <!-- Include the AdActivity configChanges and theme. -->
+        <!--<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />-->
+    </application>
+
+</manifest>

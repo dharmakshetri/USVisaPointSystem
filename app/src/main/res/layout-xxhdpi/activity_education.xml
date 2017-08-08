@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/titleLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/usvisa" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/edcuation_title"
+                    android:theme="@style/textViewStyleTitle" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/radioGroupEducation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleLayout"
+                android:layout_margin="6dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/highschool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:checked="true"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="High School[US or Foreign]"
+                    android:theme="@style/textViewStyle" />
+
+                <RadioButton
+                    android:id="@+id/bdforeign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:checked="false"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="Bacholor Degree[Foreign]"
+                    android:theme="@style/textViewStyle" />
+
+                <RadioButton
+                    android:id="@+id/bdus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:checked="false"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="Bacholor Degree[US]"
+                    android:theme="@style/textViewStyle" />
+
+                <RadioButton
+                    android:id="@+id/mdfoerign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:checked="false"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="Master Degree - STEM[Foreign]"
+                    android:theme="@style/textViewStyle" />
+
+                <RadioButton
+                    android:id="@+id/mdus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:checked="false"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="Master Degree - STEM[US]"
+                    android:theme="@style/textViewStyle" />
+
+                <RadioButton
+                    android:id="@+id/pdforeign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:checked="false"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="Professional or Doctor [Foreign]"
+                    android:theme="@style/textViewStyle" />
+
+                <RadioButton
+                    android:id="@+id/pdus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:checked="false"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="Professional or Doctor [US]"
+                    android:theme="@style/textViewStyle" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvEducationPoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="4dp"
+                android:layout_below="@+id/radioGroupEducation"
+                android:gravity="center_horizontal"
+                android:text="10"
+                android:theme="@style/textViewStylePoint" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvEducationPoint"
+                android:layout_alignParentLeft="true"
+                android:onClick="educationPreviousClick"
+                android:text="@string/previous"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:theme="@style/PrimaryFlatButton" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvEducationPoint"
+                android:layout_alignParentRight="true"
+                android:onClick="educationNextClick"
+                android:text="@string/next"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:theme="@style/PrimaryFlatButton" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:background="@color/textColor"
+        android:layout_height="30dp">
+    </LinearLayout>
+</RelativeLayout>

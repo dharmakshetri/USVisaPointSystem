@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">US Visa Point System</string>
+    <string name="app_desc">How to earn POINTS to come to the US under Trump\'s immigration plan</string>
+
+    <string name="title_activity_age">AgeActivity</string>
+    <string name="title_activity_education">EducationActivity</string>
+    <string name="title_activity_job">JobActivity</string>
+    <string name="title_activity_english">EnglishActivity</string>
+    <string name="title_activity_nobel">NobelActivity</string>
+    <string name="title_activity_olympics">OlympicsActivity</string>
+    <string name="title_activity_invester">InvesterActivity</string>
+    <string name="title_activity_spouses">SpousesActivity</string>
+    <string name="title_activity_final">FinalReportActivity</string>
+    <string name="title_activity_ref">FinalReportActivity</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+
+    <string name="age_title">Age</string>
+    <string name="edcuation_title">Education</string>
+    <string name="joboffer_title">Job Offer</string>
+    <string name="english_title">Engilsh Language</string>
+    <string name="nobelist_title">Nobelist</string>
+    <string name="investor_title">Investor</string>
+    <string name="olympics_title">Olympics</string>
+    <string name="spouses_title">Spouses</string>
+    <string name="report">Final Points</string>
+    <string name="englishDescription">Points are also given out for English ability, as determined by standardized English test, Measured by IELTS or TOFEL or any other test.</string>
+    <string name="jobOfferDescription">The only point scale that factors in whether an individual actually has a job offer in the US comes in the form of salary in an effort to boost wages. </string>
+    <string name="nobelDescription">There are bonus points available for \"extraordinary achievement,\" mainly reserved for major international awards. The system grants 25 points to someone who has won a Nobel prize or something \"comparable.\"</string>
+    <string name="olympicsDescription">Fifteen points would be given to someone earning an individual Olympic medal or relatively competitive international sporting event.</string>
+    <string name="investorDescription">An applicant may accrue,for foreign investment under this subsection.</string>
+    <string name="spousesDescription">The legal spouse of an applicant under this subsection who is accompanying or following to join the applicant in the United States shall be issued a points-based immigrant visa under this section upon the approval of the parent’s petition.
+        Applicants, if they want to bring a spouse with them, to calculate the points the spouse would earn under the same rubric.</string>
+
+    <string name="result_yes_message"> You are eligible to apply ameican visa, if you have more than 30 point then you have more chance to get visa.</string>
+    <string name="result_no_message"> You are not eligible to apply american visa, please make sure you have to make minimum 30 points for apply.</string>
+    <string name="check">Check</string>
+
+    <string name="findSalartPercentile">Calculate Salart Percentile</string>
+
+    <string name="calculate">Calculate</string>
+    <string name="cancel">Cancel</string>
+    <string name="refrences">Refrences</string>
+
+    <string name="bill">BILL - IN THE SENATE OF THE UNITED STATES.</string>
+    <string name="cnn">CNN - How to earn \'points\' to come to the US under Trump\'s immigration plan.</string>
+    <string name="bbc">BBC - US immigration proposals: What\'s in the Raise Act.</string>
+    <string name="nytimes">NYTIMES: How Trump’s ‘Merit-Based’ Immigration System Might Work.</string>
+    <string name="nbc">NBC NEWS: Trump Backs Slashing Legal Immigration With ‘Merit-Based’ System</string>
+    <string name="abc">ABC NEWS:Trump says he wants immigrants \'who speak English\' and won\'t \'collect welfare\'</string>
+    <string name="theguardian">THE GUARDIAN: Trump\'s immigration plan: could an Australian points model work in the US.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="app_id">ca-app-pub-2457197007328169~9536524344</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-2457197007328169/3512033863</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2457197007328169/6108253527</string>
+    <string name="monthly">Monthly Salary</string>
+    <string name="annualIncome">Household Income</string>
+</resources>

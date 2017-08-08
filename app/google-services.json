@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "483950066035",
+    "firebase_url": "https://us-visas-point-system.firebaseio.com",
+    "project_id": "us-visas-point-system",
+    "storage_bucket": "us-visas-point-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483950066035:android:ce3306c1a5635098",
+        "android_client_info": {
+          "package_name": "co.prandroid.usvisapointsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483950066035-vfbdnu9p1knqphm4gdqpqj1okamolomt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.prandroid.usvisapointsystem",
+            "certificate_hash": "6a2858f6e5a70737865593401adbd02bf92a74f9"
+          }
+        },
+        {
+          "client_id": "483950066035-1vvo0v8g2d5m9aktfqdnekuffh7viaqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.prandroid.usvisapointsystem",
+            "certificate_hash": "8e051132fc4ec8f531cb050b3943e4271f40c43c"
+          }
+        },
+        {
+          "client_id": "483950066035-47gk6nfjjfkcqv5uufpj7vacapvuihvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbJN6nNNaq38gVGwSrCLGxNQ2dZ8kIPyM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483950066035-47gk6nfjjfkcqv5uufpj7vacapvuihvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
