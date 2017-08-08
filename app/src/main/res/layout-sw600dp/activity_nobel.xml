@@ -31,7 +31,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:text="@string/nobelist_title"
-                    android:textSize="48sp"
+                    android:textSize="32sp"
                     android:theme="@style/textViewStyleTitle" />
 
             </RelativeLayout>
@@ -65,7 +65,7 @@
                 android:layout_below="@+id/isNobelWinner"
                 android:layout_centerVertical="true"
                 android:layout_margin="12dp"
-                android:textSize="36sp"
+                android:textSize="48sp"
                 android:gravity="center_horizontal"
                 android:text="10"
                 android:theme="@style/textViewStylePoint" />

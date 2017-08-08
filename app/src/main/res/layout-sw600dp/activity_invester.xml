@@ -31,7 +31,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:text="@string/investor_title"
-                    android:textSize="48sp"
+                    android:textSize="32sp"
                     android:theme="@style/textViewStyleTitle" />
 
             </RelativeLayout>
@@ -98,7 +98,7 @@
                 android:layout_margin="4dp"
                 android:gravity="center_horizontal"
                 android:text="10"
-                android:textSize="32sp"
+                android:textSize="48sp"
                 android:theme="@style/textViewStylePoint" />
 
             <Button

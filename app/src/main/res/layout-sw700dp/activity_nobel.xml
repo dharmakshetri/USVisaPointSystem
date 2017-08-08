@@ -32,7 +32,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:text="@string/nobelist_title"
-                    android:textSize="64sp"
+                    android:textSize="48sp"
                     android:theme="@style/textViewStyleTitle" />
 
             </RelativeLayout>

@@ -165,7 +165,7 @@
                 android:layout_below="@+id/relativeCalculate"
                 android:layout_centerVertical="true"
                 android:layout_margin="4dp"
-                android:textSize="32sp"
+                android:textSize="48sp"
                 android:gravity="center_horizontal"
                 android:text="10"
                 android:theme="@style/textViewStylePoint" />
