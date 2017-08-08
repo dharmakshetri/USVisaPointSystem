@@ -138,9 +138,7 @@ class AgeActivity : AppCompatActivity() {
     fun ageNextClick(view: View){
         if (mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
-            println("show ads")
         } else {
-            println("go to next activity")
             beginSecondActivity();
         }
 
