@@ -42,7 +42,7 @@
                 android:layout_below="@+id/titleLayout"
                 android:layout_margin="8dp"
                 android:text="@string/englishDescription"
-                android:theme="@style/textViewStyleCalculate" />
+                android:theme="@style/textViewStyle" />
 
             <RadioGroup
                 android:id="@+id/radioGroupEngslish"

@@ -61,7 +61,7 @@
                             android:layout_centerVertical="true"
                             android:text="@string/bill"
                             android:textSize="24sp"
-                            android:theme="@style/textViewStyleMessage" />
+                            android:theme="@style/textViewStyle" />
 
                         <View
                             android:layout_width="match_parent"
@@ -86,7 +86,7 @@
                             android:layout_centerVertical="true"
                             android:text="@string/cnn"
                             android:textSize="24sp"
-                            android:theme="@style/textViewStyleMessage" />
+                            android:theme="@style/textViewStyle" />
 
                         <View
 
@@ -112,7 +112,7 @@
                             android:layout_centerVertical="true"
                             android:text="@string/bbc"
                             android:textSize="24sp"
-                            android:theme="@style/textViewStyleMessage" />
+                            android:theme="@style/textViewStyle" />
 
                         <View
 
@@ -138,7 +138,7 @@
                             android:layout_centerVertical="true"
                             android:text="@string/nytimes"
                             android:textSize="24sp"
-                            android:theme="@style/textViewStyleMessage" />
+                            android:theme="@style/textViewStyle" />
 
                         <View
 
@@ -164,7 +164,7 @@
                             android:layout_centerVertical="true"
                             android:text="@string/nbc"
                             android:textSize="24sp"
-                            android:theme="@style/textViewStyleMessage" />
+                            android:theme="@style/textViewStyle" />
 
                         <View
 
@@ -190,7 +190,7 @@
                             android:layout_centerVertical="true"
                             android:text="@string/abc"
                             android:textSize="24sp"
-                            android:theme="@style/textViewStyleMessage" />
+                            android:theme="@style/textViewStyle" />
 
                         <View
                             android:layout_width="match_parent"
@@ -215,7 +215,7 @@
                             android:layout_centerVertical="true"
                             android:text="@string/theguardian"
                             android:textSize="24sp"
-                            android:theme="@style/textViewStyleMessage" />
+                            android:theme="@style/textViewStyle" />
 
                         <View
                             android:layout_width="match_parent"

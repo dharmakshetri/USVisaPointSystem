@@ -45,7 +45,7 @@
                 android:layout_below="@+id/titleLayout"
                 android:layout_margin="6dp"
                 android:text="@string/jobOfferDescription"
-                android:theme="@style/textViewStyleCalculate" />
+                android:theme="@style/textViewStyleMessage" />
             <TextView
                 android:id="@+id/tvOr"
                 android:layout_width="30dp"

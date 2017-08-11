@@ -164,7 +164,7 @@
                 android:layout_below="@+id/tvJobPoint"
                 android:onClick="jobPreviousClick"
                 android:text="@string/previous"
-                android:textSize="12sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 android:theme="@style/PrimaryFlatButton" />
 
@@ -175,7 +175,7 @@
                 android:layout_below="@+id/tvJobPoint"
                 android:onClick="jobNextClick"
                 android:text="@string/next"
-                android:textSize="12sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 android:theme="@style/PrimaryFlatButton" />
         </RelativeLayout>

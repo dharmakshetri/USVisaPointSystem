@@ -225,7 +225,7 @@
                 android:layout_alignParentLeft="true"
                 android:onClick="refPreviousClick"
                 android:text="@string/previous"
-                android:textSize="12sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 android:theme="@style/PrimaryFlatButton" />
 

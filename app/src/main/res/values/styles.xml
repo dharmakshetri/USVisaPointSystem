@@ -27,17 +27,17 @@
     <style name="textViewStyle" parent="Theme.AppCompat.Light">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColor">@color/Black</item>
     </style>
 
     <style name="textViewStyleEducation" parent="Theme.AppCompat.Light">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/DarkGrey</item>
+        <item name="android:textColor">@color/Black</item>
     </style>
 
     <style name="textViewStyleMessage" parent="Theme.AppCompat.Light">
@@ -45,7 +45,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/DarkGrey</item>
+        <item name="android:textColor">@color/Black</item>
     </style>
 
     <style name="textViewStyleCalculate" parent="Theme.AppCompat.Light">
@@ -60,7 +60,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textSize">24sp</item>
-        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColor">@color/Black</item>
     </style>
 
     <style name="textViewStylePoint" parent="Theme.AppCompat.Light">

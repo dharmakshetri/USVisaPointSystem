@@ -6,7 +6,7 @@
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp">
+        android:layout_margin="8dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -21,7 +21,7 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="60dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/usvisa" />
 
@@ -133,7 +133,7 @@
                 android:layout_alignParentLeft="true"
                 android:onClick="educationPreviousClick"
                 android:text="@string/previous"
-                android:textSize="12sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 android:theme="@style/PrimaryFlatButton" />
             <Button
@@ -143,7 +143,7 @@
                 android:layout_alignParentRight="true"
                 android:onClick="educationNextClick"
                 android:text="@string/next"
-                android:textSize="12sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 android:theme="@style/PrimaryFlatButton" />
         </RelativeLayout>

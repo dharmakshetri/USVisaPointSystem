@@ -64,6 +64,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/age" />
 
                     <TextView
@@ -106,6 +107,7 @@
                         android:id="@+id/imageEducation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/education" />
 
@@ -145,6 +147,7 @@
                         android:id="@+id/imageEnglish"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/english" />
 
@@ -222,6 +225,7 @@
                         android:id="@+id/imageNobel"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/nobel" />
 
@@ -261,6 +265,7 @@
                         android:id="@+id/imageOlympics"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/olympics" />
 
@@ -300,6 +305,7 @@
                         android:id="@+id/imageInvestor"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/invesment" />
 
@@ -338,6 +344,7 @@
                         android:id="@+id/imageSpouses"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/spouses" />
 

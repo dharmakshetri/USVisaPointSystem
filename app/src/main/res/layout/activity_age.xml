@@ -153,7 +153,7 @@
                 android:layout_alignParentRight="true"
                 android:onClick="ageNextClick"
                 android:text="@string/next"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 android:theme="@style/PrimaryFlatButton" />
         </RelativeLayout>

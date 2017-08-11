@@ -44,7 +44,7 @@
                 android:layout_margin="16dp"
                 android:textSize="32sp"
                 android:text="@string/spousesDescription"
-                android:theme="@style/textViewStyleString" />
+                android:theme="@style/textViewStyleMessage" />
 
 
 

@@ -51,9 +51,7 @@
                     android:checked="true"
                     android:onClick="onRadioButtonClicked"
                     android:text=" Below 18"
-                    android:textColor="@color/textColor"
                     android:textSize="24sp"
-                    android:textStyle="bold"
                     android:theme="@style/textViewStyle" />
 
                 <RadioButton
@@ -64,9 +62,7 @@
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
                     android:text="18 - 21"
-                    android:textColor="@color/textColor"
                     android:textSize="24sp"
-                    android:textStyle="bold"
                     android:theme="@style/textViewStyle" />
 
                 <RadioButton
@@ -77,9 +73,7 @@
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
                     android:text="22 - 25"
-                    android:textColor="@color/textColor"
                     android:textSize="24sp"
-                    android:textStyle="bold"
                     android:theme="@style/textViewStyle" />
 
                 <RadioButton
@@ -90,9 +84,7 @@
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
                     android:text="26 - 30"
-                    android:textColor="@color/textColor"
                     android:textSize="24sp"
-                    android:textStyle="bold"
                     android:theme="@style/textViewStyle" />
 
                 <RadioButton
@@ -103,9 +95,7 @@
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
                     android:text="31 - 35"
-                    android:textColor="@color/textColor"
                     android:textSize="24sp"
-                    android:textStyle="bold"
                     android:theme="@style/textViewStyle" />
 
                 <RadioButton
@@ -116,9 +106,7 @@
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
                     android:text="36 - 40"
-                    android:textColor="@color/textColor"
                     android:textSize="24sp"
-                    android:textStyle="bold"
                     android:theme="@style/textViewStyle" />
 
                 <RadioButton
@@ -129,9 +117,7 @@
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
                     android:text="41 - 45"
-                    android:textColor="@color/textColor"
                     android:textSize="24sp"
-                    android:textStyle="bold"
                     android:theme="@style/textViewStyle" />
 
                 <RadioButton
@@ -142,9 +128,7 @@
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
                     android:text="46 - 50"
-                    android:textColor="@color/textColor"
                     android:textSize="24sp"
-                    android:textStyle="bold"
                     android:theme="@style/textViewStyle" />
 
                 <RadioButton
@@ -156,9 +140,7 @@
                     android:gravity="center_vertical|center_horizontal"
                     android:onClick="onRadioButtonClicked"
                     android:text="50+"
-                    android:textColor="@color/textColor"
                     android:textSize="24sp"
-                    android:textStyle="bold"
                     android:theme="@style/textViewStyle" />
             </RadioGroup>
 

@@ -45,7 +45,7 @@
                 android:layout_margin="16dp"
                 android:textSize="32sp"
                 android:text="@string/olympicsDescription"
-                android:theme="@style/textViewStyleEducation" />
+                android:theme="@style/textViewStyleMessage" />
 
             <CheckBox
                 android:id="@+id/isOlympicWinner"

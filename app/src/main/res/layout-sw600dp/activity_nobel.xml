@@ -44,7 +44,7 @@
                 android:layout_margin="12dp"
                 android:textSize="24sp"
                 android:text="@string/nobelDescription"
-                android:theme="@style/textViewStyleEducation" />
+                android:theme="@style/textViewStyleMessage" />
 
             <CheckBox
                 android:id="@+id/isNobelWinner"

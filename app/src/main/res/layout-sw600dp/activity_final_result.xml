@@ -55,6 +55,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/age" />
 
                     <TextView
@@ -100,6 +101,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/education" />
 
                     <TextView
@@ -141,6 +143,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/english" />
 
                     <TextView
@@ -181,6 +184,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/job" />
 
                     <TextView
@@ -222,6 +226,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/nobel" />
 
                     <TextView
@@ -263,6 +268,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/olympics" />
 
                     <TextView
@@ -304,6 +310,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/invesment" />
 
                     <TextView
@@ -344,6 +351,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/spouses" />
 
                     <TextView

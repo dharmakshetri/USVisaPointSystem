@@ -55,6 +55,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/age" />
 
                     <TextView
@@ -65,7 +66,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_centerVertical="true"
                         android:text="Age"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
                     <TextView
                         android:id="@+id/textViewAgePoint"
@@ -73,7 +74,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:text="10"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
 
                 </RelativeLayout>
@@ -100,6 +101,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/education" />
 
                     <TextView
@@ -110,7 +112,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_toRightOf="@+id/imageEducation"
                         android:text="Education"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
 
                     <TextView
@@ -119,7 +121,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:text="10"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
 
                 </RelativeLayout>
@@ -141,6 +143,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/english" />
 
                     <TextView
@@ -150,7 +153,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_centerVertical="true"
                         android:text="English"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
                     <TextView
                         android:id="@+id/textViewEnglishPoint"
@@ -158,7 +161,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:text="10"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
 
                 </RelativeLayout>
@@ -181,6 +184,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/job" />
 
                     <TextView
@@ -191,7 +195,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_centerVertical="true"
                         android:text="Job"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
                     <TextView
                         android:id="@+id/textViewJobPoint"
@@ -199,7 +203,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:text="10"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
 
                 </RelativeLayout>
@@ -222,6 +226,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/nobel" />
 
                     <TextView
@@ -232,7 +237,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_centerVertical="true"
                         android:text="Nobel Prize"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
                     <TextView
                         android:id="@+id/textViewNobelPoint"
@@ -240,7 +245,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:text="10"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
 
                 </RelativeLayout>
@@ -263,6 +268,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/olympics" />
 
                     <TextView
@@ -273,7 +279,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_centerVertical="true"
                         android:text="Olympics"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
                     <TextView
                         android:id="@+id/textViewOlympicsPoint"
@@ -281,7 +287,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:text="10"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
 
                 </RelativeLayout>
@@ -304,6 +310,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/invesment" />
 
                     <TextView
@@ -314,7 +321,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_centerVertical="true"
                         android:text="Investor"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
                     <TextView
                         android:id="@+id/textViewInestorPoint"
@@ -322,7 +329,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:text="10"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
 
                 </RelativeLayout>
@@ -344,6 +351,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/spouses" />
 
                     <TextView
@@ -354,7 +362,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_centerVertical="true"
                         android:text="Spouses"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
                     <TextView
                         android:id="@+id/textViewSpousesPoint"
@@ -362,7 +370,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:text="10"
-                        android:textSize="48sp"
+                        android:textSize="32sp"
                         android:theme="@style/textViewStyleEducation" />
 
                 </RelativeLayout>

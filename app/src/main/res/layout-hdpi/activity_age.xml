@@ -31,7 +31,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:text="@string/age_title"
-                    android:theme="@style/textViewStyleTitle" />
+                    android:theme="@style/textViewStyle" />
             </RelativeLayout>
 
             <RadioGroup
@@ -50,7 +50,7 @@
                     android:checked="true"
                     android:onClick="onRadioButtonClicked"
                     android:text=" Below 18"
-                    android:theme="@style/textViewStyleCalculate" />
+                    android:theme="@style/textViewStyle" />
 
                 <RadioButton
                     android:id="@+id/eighteento21"
@@ -60,7 +60,7 @@
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
                     android:text="18 - 21"
-                    android:theme="@style/textViewStyleCalculate" />
+                    android:theme="@style/textViewStyle" />
 
                 <RadioButton
                     android:id="@+id/twentyto25"
@@ -70,7 +70,7 @@
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
                     android:text="22 - 25"
-                    android:theme="@style/textViewStyleCalculate" />
+                    android:theme="@style/textViewStyle" />
 
                 <RadioButton
                     android:id="@+id/twenty26to30"
@@ -80,7 +80,7 @@
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
                     android:text="26 - 30"
-                    android:theme="@style/textViewStyleCalculate" />
+                    android:theme="@style/textViewStyle" />
 
                 <RadioButton
                     android:id="@+id/thirty1to35"
@@ -100,7 +100,7 @@
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
                     android:text="36 - 40"
-                    android:theme="@style/textViewStyleCalculate" />
+                    android:theme="@style/textViewStyle" />
 
                 <RadioButton
                     android:id="@+id/fouty1to45"
@@ -110,7 +110,7 @@
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
                     android:text="41 - 45"
-                    android:theme="@style/textViewStyleCalculate" />
+                    android:theme="@style/textViewStyle" />
 
                 <RadioButton
                     android:id="@+id/fouty6to50"
@@ -120,7 +120,7 @@
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
                     android:text="46 - 50"
-                    android:theme="@style/textViewStyleCalculate" />
+                    android:theme="@style/textViewStyle" />
 
                 <RadioButton
                     android:id="@+id/fiftyplus"
@@ -131,7 +131,7 @@
                     android:gravity="center_vertical|center_horizontal"
                     android:onClick="onRadioButtonClicked"
                     android:text="50+"
-                    android:theme="@style/textViewStyleCalculate" />
+                    android:theme="@style/textViewStyle" />
             </RadioGroup>
 
             <TextView
@@ -152,7 +152,7 @@
                 android:layout_alignParentRight="true"
                 android:onClick="ageNextClick"
                 android:text="@string/next"
-                android:textSize="12sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 android:theme="@style/PrimaryFlatButton" />
         </RelativeLayout>
