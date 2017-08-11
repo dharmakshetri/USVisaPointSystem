@@ -142,7 +142,7 @@
                 android:layout_alignParentLeft="true"
                 android:onClick="educationPreviousClick"
                 android:text="@string/previous"
-                android:textSize="32sp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:theme="@style/PrimaryFlatButton" />
             <Button
@@ -152,7 +152,7 @@
                 android:layout_alignParentRight="true"
                 android:onClick="educationNextClick"
                 android:text="@string/next"
-                android:textSize="32sp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:theme="@style/PrimaryFlatButton" />
         </RelativeLayout>

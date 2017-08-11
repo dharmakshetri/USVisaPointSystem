@@ -17,7 +17,6 @@ class Common {
 
         var TOTAL_POINT = "total"
 
-
         var statesIncome = mapOf("Alabama" to 44509, "Alaska" to 75112, "Arizona" to 52248, "Arkansas" to 42798, "California" to 63636,
                 "Colorado" to 66596, "Connecticut" to 72889, "Delaware" to 57756, "District of Columbia" to 70071, "Florida" to 48825,
                 "Georgia" to 50768,

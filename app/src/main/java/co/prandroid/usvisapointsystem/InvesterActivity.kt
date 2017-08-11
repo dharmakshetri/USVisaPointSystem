@@ -38,7 +38,6 @@ class InvesterActivity : AppCompatActivity() {
         val investorIndex= sharedPref!!.getInt(INDEX, 110)
         investerPoint=sharedPref!!.getInt(Common.INVESTOR,0)
 
-        println("INvestor Index: $investorIndex")
         editor = sharedPref!!.edit()
         radioGroupInvestor.check(investorIndex)
         tvInvestorPoint.text=" $investerPoint point"
@@ -77,19 +76,16 @@ class InvesterActivity : AppCompatActivity() {
     }
 
     fun investorPreviousClick(view: View){
-        //TODO: go to next page with subtract for this value
         val iJob= Intent(applicationContext, OlympicsActivity::class.java)
         startActivity(iJob)
     }
 
     fun investorSkipClick(view: View){
-        //TODO: DO not include the value for this view
         val iJob= Intent(applicationContext, SpousesActivity::class.java)
         startActivity(iJob)
     }
 
     fun investorNextClick(view: View){
-        //TODO: add the value for this view
         val iJob= Intent(applicationContext, SpousesActivity::class.java)
         startActivity(iJob)
     }

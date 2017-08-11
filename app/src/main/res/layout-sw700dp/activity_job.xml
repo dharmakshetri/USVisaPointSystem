@@ -112,9 +112,9 @@
                     android:layout_centerHorizontal="true"
                     android:onClick="checkClick"
                     android:text="@string/check"
-                    android:textSize="24sp"
+                    android:textSize="32sp"
                     android:textStyle="bold"
-                    android:theme="@style/PrimaryFlatButton" />
+                    android:theme="@style/textViewStyleTitle" />
             </RelativeLayout>
 
             <RadioGroup

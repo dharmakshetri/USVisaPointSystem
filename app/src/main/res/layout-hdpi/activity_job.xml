@@ -95,7 +95,7 @@
                     android:text="@string/check"
                     android:textSize="12sp"
                     android:textStyle="bold"
-                    android:theme="@style/PrimaryFlatButton" />
+                    android:theme="@style/textViewStyleTitle" />
             </RelativeLayout>
             <TextView
                 android:id="@+id/tvOr"

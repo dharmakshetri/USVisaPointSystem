@@ -102,11 +102,10 @@ class JobActivity : AppCompatActivity() {
     }
 
     fun checkClick(view: View){
-        if(etMonthly.text.toString().length==0)
+        if(etMonthly.text.toString().length==0|| etMonthly.text.toString().toDouble()< 1000.0)
             return
         var monthlySalary:Double=etMonthly.text.toString().toDouble()
         var annunalYourIncome:Double=monthlySalary*12
-
 
         var yourPercentile:Double
         yourPercentile=annunalYourIncome / annualHouseholdIncom!!.toDouble()

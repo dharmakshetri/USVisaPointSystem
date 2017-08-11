@@ -76,58 +76,48 @@ class FinalResultActivity : AppCompatActivity() {
     }
 
     fun reportPreviousClick(view: View){
-        //TODO: add the value for this view
         val iJob= Intent(applicationContext, AgeActivity::class.java)
         startActivity(iJob)
     }
     fun refrenceClick(view: View){
-        //TODO: add the value for this view
         val iJob= Intent(applicationContext, RefrenceActivity::class.java)
         startActivity(iJob)
     }
 
     fun ageClick(view: View){
-        //TODO: add the value for this view
         val iJob= Intent(applicationContext, AgeActivity::class.java)
         startActivity(iJob)
     }
 
     fun englishClick(view: View){
-        //TODO: add the value for this view
         val iJob= Intent(applicationContext, EnglishActivity::class.java)
         startActivity(iJob)
     }
 
     fun educationClick(view: View){
-        //TODO: add the value for this view
         val iJob= Intent(applicationContext, EducationActivity::class.java)
         startActivity(iJob)
     }
     fun jobClick(view: View){
-        //TODO: add the value for this view
         val iJob= Intent(applicationContext, JobActivity::class.java)
         startActivity(iJob)
     }
     fun investorClick(view: View){
-        //TODO: add the value for this view
         val iJob= Intent(applicationContext, InvesterActivity::class.java)
         startActivity(iJob)
     }
 
     fun olympicsClick(view: View){
-        //TODO: add the value for this view
         val iJob= Intent(applicationContext, OlympicsActivity::class.java)
         startActivity(iJob)
     }
 
     fun nobelClick(view: View){
-        //TODO: add the value for this view
         val iJob= Intent(applicationContext, NobelActivity::class.java)
         startActivity(iJob)
     }
 
     fun spousesClick(view: View){
-        //TODO: add the value for this view
         val iJob= Intent(applicationContext, SpousesActivity::class.java)
         startActivity(iJob)
     }

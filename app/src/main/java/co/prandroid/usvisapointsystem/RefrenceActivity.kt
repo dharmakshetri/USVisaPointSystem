@@ -49,7 +49,6 @@ class RefrenceActivity : AppCompatActivity() {
         startActivity(intent)
     }
     fun refPreviousClick(view: View){
-        //TODO: add the value for this view
         val iJob= Intent(applicationContext, FinalResultActivity::class.java)
         startActivity(iJob)
     }

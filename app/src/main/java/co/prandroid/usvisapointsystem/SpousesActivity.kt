@@ -40,40 +40,15 @@ class SpousesActivity : AppCompatActivity() {
     }
 
     fun spousesSkipClick(view: View){
-
-        if (mInterstitialAd.isLoaded()) {
-            mInterstitialAd.show();
-            println("show ads")
-        } else {
-            println("go to next activity")
-            beginSecondActivity();
-        }
-
-        // [START create_interstitial_ad_listener]
-        mInterstitialAd.adListener = object : AdListener() {
-            override fun onAdClosed() {
-                requestNewInterstitial()
-                beginSecondActivity()
-            }
-
-            override fun onAdLoaded() {
-                // Ad received, ready to display
-                // [START_EXCLUDE]
-                /*if (mLoadInterstitialButton != null) {
-                    mLoadInterstitialButton.setEnabled(true)
-                }*/
-                // [END_EXCLUDE]
-            }
-
-            override fun onAdFailedToLoad(i: Int) {
-                // See https://goo.gl/sCZj0H for possible error codes.
-                Log.w("AgeActivity", "onAdFailedToLoad:" + i)
-            }
-        }
-        // [END create_interstitial_ad_listener]
+        adDisplay()
     }
 
     fun spousesNextClick(view: View){
+        adDisplay()
+
+    }
+
+    fun adDisplay(){
 
         if (mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
@@ -105,7 +80,6 @@ class SpousesActivity : AppCompatActivity() {
             }
         }
         // [END create_interstitial_ad_listener]
-
     }
 
     private fun beginSecondActivity() {

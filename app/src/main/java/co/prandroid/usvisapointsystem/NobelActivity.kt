@@ -62,19 +62,16 @@ class NobelActivity : AppCompatActivity() {
     }
 
     fun nobelPreviousClick(view: View){
-        //TODO: go to next page with subtract for this value
         val iJob= Intent(applicationContext, JobActivity::class.java)
         startActivity(iJob)
     }
 
     fun nobelSkipClick(view: View){
-        //TODO: DO not include the value for this view
         val iJob= Intent(applicationContext, OlympicsActivity::class.java)
         startActivity(iJob)
     }
 
     fun nobelNextClick(view: View){
-        //TODO: add the value for this view
         val iJob= Intent(applicationContext, OlympicsActivity::class.java)
         startActivity(iJob)
     }

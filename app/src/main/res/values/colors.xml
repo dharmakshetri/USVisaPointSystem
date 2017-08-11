@@ -7,4 +7,8 @@
     <color name="pointColor">#00bfa5</color>
     <color name="titleColor">#FFAB40</color>
     <color name="redAlert">#FF0000</color>
+    <color name="TransparentGrey">#15000000</color>
+    <color name="White">#FFF</color>
+    <color name="Grey">#7F7F7F</color>
+    <color name="DarkGrey">#4F4F4F</color>
 </resources>

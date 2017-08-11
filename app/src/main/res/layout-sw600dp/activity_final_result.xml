@@ -377,7 +377,7 @@
                 android:layout_marginRight="8dp"
                 android:gravity="center_horizontal"
                 android:text="10"
-                android:textSize="36sp"
+                android:textSize="32sp"
                 android:theme="@style/textViewStylePoint" />
 
             <TextView
@@ -390,7 +390,7 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginTop="4dp"
                 android:gravity="center_horizontal"
-                android:textSize="48sp"
+                android:textSize="24sp"
                 android:theme="@style/textViewStyleMessage" />
             <Button
                 android:layout_width="wrap_content"

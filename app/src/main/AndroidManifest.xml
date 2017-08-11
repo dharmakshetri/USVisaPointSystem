@@ -66,16 +66,6 @@
             android:label="@string/title_activity_ref"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <!-- This meta-data tag is required to use Google Play Services. -->
-        <!--<meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />-->
-      <!-- Include the AdActivity configChanges and theme. -->
-        <!--<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
-        <activity
-            android:name="com.google.android.gms.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:theme="@android:style/Theme.Translucent" />-->
     </application>
 
 </manifest>

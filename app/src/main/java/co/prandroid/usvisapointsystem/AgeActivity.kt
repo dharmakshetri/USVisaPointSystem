@@ -49,10 +49,7 @@ class AgeActivity : AppCompatActivity() {
         mInterstitialAd.setAdUnitId(getString(R.string.interstitial_ad_unit_id));
         requestNewInterstitial()
 
-
     }
-
-
     // [START request_new_interstitial]
     private fun requestNewInterstitial() {
          adRequest = AdRequest.Builder().build()

@@ -103,9 +103,9 @@
                     android:layout_centerHorizontal="true"
                     android:layout_below="@+id/tvStatesAnnual"
                     android:text="@string/check"
-                    android:textSize="14sp"
+                    android:textSize="16sp"
                     android:textStyle="bold"
-                    android:theme="@style/PrimaryFlatButton" />
+                    android:theme="@style/textViewStyleTitle" />
             </RelativeLayout>
             <RadioGroup
                 android:id="@+id/radioGroupJob"
