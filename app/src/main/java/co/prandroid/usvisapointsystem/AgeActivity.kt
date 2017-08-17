@@ -156,7 +156,6 @@ class AgeActivity : AppCompatActivity() {
             }
 
             override fun onAdFailedToLoad(i: Int) {
-                // See https://goo.gl/sCZj0H for possible error codes.
                 Log.w("AgeActivity", "onAdFailedToLoad:" + i)
             }
         }

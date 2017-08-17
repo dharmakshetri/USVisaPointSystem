@@ -49,7 +49,7 @@
                     android:layout_margin="3dp"
                     android:checked="true"
                     android:onClick="onRadioButtonClicked"
-                    android:text="High School[US or Foreign]"
+                    android:text="High School [US or Foreign]"
                     android:theme="@style/textViewStyleMessage" />
 
                 <RadioButton
@@ -59,7 +59,7 @@
                     android:layout_margin="3dp"
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
-                    android:text="Bacholor Degree[Foreign]"
+                    android:text="Bachelor Degree [Foreign]"
                     android:theme="@style/textViewStyleMessage" />
 
                 <RadioButton
@@ -69,7 +69,7 @@
                     android:layout_margin="3dp"
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
-                    android:text="Bacholor Degree[US]"
+                    android:text="Bachelor Degree [US]"
                     android:theme="@style/textViewStyleMessage" />
 
                 <RadioButton
@@ -79,7 +79,7 @@
                     android:layout_margin="3dp"
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
-                    android:text="Master Degree - STEM[Foreign]"
+                    android:text="Master Degree - STEM [Foreign]"
                     android:theme="@style/textViewStyleMessage" />
 
                 <RadioButton
@@ -89,7 +89,7 @@
                     android:layout_margin="3dp"
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
-                    android:text="Master Degree - STEM[US]"
+                    android:text="Master Degree - STEM [US]"
                     android:theme="@style/textViewStyleMessage" />
 
                 <RadioButton

@@ -51,7 +51,7 @@
                     android:checked="true"
                     android:textSize="32sp"
                     android:onClick="onRadioButtonClicked"
-                    android:text="High School[US or Foreign]"
+                    android:text="High School [US or Foreign]"
                     android:theme="@style/textViewStyleEducation" />
 
                 <RadioButton
@@ -62,7 +62,7 @@
                     android:checked="false"
                     android:textSize="32sp"
                     android:onClick="onRadioButtonClicked"
-                    android:text="Bacholor Degree[Foreign]"
+                    android:text="Bachelor Degree [Foreign]"
                     android:theme="@style/textViewStyleEducation" />
 
                 <RadioButton
@@ -73,7 +73,7 @@
                     android:checked="false"
                     android:textSize="32sp"
                     android:onClick="onRadioButtonClicked"
-                    android:text="Bacholor Degree[US]"
+                    android:text="Bachelor Degree [US]"
                     android:theme="@style/textViewStyleEducation" />
 
                 <RadioButton
@@ -84,7 +84,7 @@
                     android:checked="false"
                     android:textSize="32sp"
                     android:onClick="onRadioButtonClicked"
-                    android:text="Master Degree - STEM[Foreign]"
+                    android:text="Master Degree - STEM [Foreign]"
                     android:theme="@style/textViewStyleEducation" />
 
                 <RadioButton
@@ -95,7 +95,7 @@
                     android:checked="false"
                     android:textSize="32sp"
                     android:onClick="onRadioButtonClicked"
-                    android:text="Master Degree - STEM[US]"
+                    android:text="Master Degree - STEM [US]"
                     android:theme="@style/textViewStyleEducation" />
 
                 <RadioButton
@@ -155,6 +155,16 @@
                 android:textSize="32sp"
                 android:textStyle="bold"
                 android:theme="@style/PrimaryFlatButton" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/radioGroupEducation"
+                android:layout_marginBottom="217dp"
+                android:layout_toEndOf="@+id/radioGroupEducation"
+                android:layout_toRightOf="@+id/radioGroupEducation"
+                android:text="Science, Technology, Environment, Management" />
         </RelativeLayout>
 
     </android.support.v7.widget.CardView>

@@ -34,11 +34,11 @@
     <string name="spousesDescription">The legal spouse of an applicant under this subsection who is accompanying or following to join the applicant in the United States shall be issued a points-based immigrant visa under this section upon the approval of the parent’s petition.
         Applicants, if they want to bring a spouse with them, to calculate the points the spouse would earn under the same rubric.</string>
 
-    <string name="result_yes_message"> You are eligible to apply ameican visa, if you have more than 30 point then you have more chance to get visa.</string>
-    <string name="result_no_message"> You are not eligible to apply american visa, please make sure you have to make minimum 30 points for apply.</string>
+    <string name="result_yes_message"> You are eligible to apply american green card.</string>
+    <string name="result_no_message"> You are not eligible to apply american green card, please make sure you have to make minimum 30 points for apply.</string>
     <string name="check">Check</string>
 
-    <string name="findSalartPercentile">Calculate Salart Percentile</string>
+    <string name="findSalartPercentile">Calculate Salary Percentile</string>
 
     <string name="calculate">Calculate</string>
     <string name="cancel">Cancel</string>

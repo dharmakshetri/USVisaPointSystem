@@ -51,7 +51,7 @@
                     android:checked="true"
                     android:textSize="24sp"
                     android:onClick="onRadioButtonClicked"
-                    android:text="High School[US or Foreign]"
+                    android:text="High School [US or Foreign]"
                     android:theme="@style/textViewStyleEducation" />
 
                 <RadioButton
@@ -62,7 +62,7 @@
                     android:checked="false"
                     android:textSize="24sp"
                     android:onClick="onRadioButtonClicked"
-                    android:text="Bacholor Degree[Foreign]"
+                    android:text="Bachelor Degree [Foreign]"
                     android:theme="@style/textViewStyleEducation" />
 
                 <RadioButton
@@ -73,7 +73,7 @@
                     android:checked="false"
                     android:textSize="24sp"
                     android:onClick="onRadioButtonClicked"
-                    android:text="Bacholor Degree[US]"
+                    android:text="Bachelor Degree [US]"
                     android:theme="@style/textViewStyleEducation" />
 
                 <RadioButton
@@ -84,7 +84,7 @@
                     android:checked="false"
                     android:textSize="24sp"
                     android:onClick="onRadioButtonClicked"
-                    android:text="Master Degree - STEM[Foreign]"
+                    android:text="Master Degree - STEM [Foreign]"
                     android:theme="@style/textViewStyleEducation" />
 
                 <RadioButton
@@ -95,7 +95,7 @@
                     android:checked="false"
                     android:textSize="24sp"
                     android:onClick="onRadioButtonClicked"
-                    android:text="Master Degree - STEM[US]"
+                    android:text="Master Degree - STEM [US]"
                     android:theme="@style/textViewStyleEducation" />
 
                 <RadioButton
