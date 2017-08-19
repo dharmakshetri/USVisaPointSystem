@@ -30,118 +30,98 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:text="@string/age_title"
-                    android:textSize="24sp"
+                    android:text="@string/edcuation_title"
                     android:theme="@style/textViewStyleTitle" />
             </RelativeLayout>
 
             <RadioGroup
-                android:id="@+id/radioGroupAge"
+                android:id="@+id/radioGroupEducation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/titleLayout"
-                android:layout_margin="6dp"
+                android:layout_margin="3dp"
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/lessthan18"
+                    android:id="@+id/highschool"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
+                    android:layout_margin="3dp"
                     android:checked="true"
                     android:onClick="onRadioButtonClicked"
-                    android:text=" Below 18"
-                    android:theme="@style/textViewStyle" />
+                    android:text="High School[US or Foreign]"
+                    android:theme="@style/textViewStyleMessage" />
 
                 <RadioButton
-                    android:id="@+id/eighteento21"
+                    android:id="@+id/bdforeign"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
+                    android:layout_margin="3dp"
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
-                    android:text="18 - 21"
-                    android:theme="@style/textViewStyle" />
+                    android:text="Bacholor Degree[Foreign]"
+                    android:theme="@style/textViewStyleMessage" />
 
                 <RadioButton
-                    android:id="@+id/twentyto25"
+                    android:id="@+id/bdus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
+                    android:layout_margin="3dp"
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
-                    android:text="22 - 25"
-                    android:theme="@style/textViewStyle" />
+                    android:text="Bacholor Degree[US]"
+                    android:theme="@style/textViewStyleMessage" />
 
                 <RadioButton
-                    android:id="@+id/twenty26to30"
+                    android:id="@+id/mdfoerign"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
+                    android:layout_margin="3dp"
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
-                    android:text="26 - 30"
-                    android:theme="@style/textViewStyle" />
+                    android:text="Master Degree - STEM[Foreign]"
+                    android:theme="@style/textViewStyleMessage" />
 
                 <RadioButton
-                    android:id="@+id/thirty1to35"
+                    android:id="@+id/mdus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
+                    android:layout_margin="3dp"
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
-                    android:text="31 - 35"
-                    android:theme="@style/textViewStyle" />
+                    android:text="Master Degree - STEM[US]"
+                    android:theme="@style/textViewStyleMessage" />
 
                 <RadioButton
-                    android:id="@+id/thirty36to40"
+                    android:id="@+id/pdforeign"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
+                    android:layout_margin="3dp"
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
-                    android:text="36 - 40"
-                    android:theme="@style/textViewStyle" />
+                    android:text="Professional or Doctor [Foreign]"
+                    android:theme="@style/textViewStyleMessage" />
 
                 <RadioButton
-                    android:id="@+id/fouty1to45"
+                    android:id="@+id/pdus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
+                    android:layout_margin="3dp"
                     android:checked="false"
                     android:onClick="onRadioButtonClicked"
-                    android:text="41 - 45"
-                    android:theme="@style/textViewStyle" />
+                    android:text="Professional or Doctor [US]"
+                    android:theme="@style/textViewStyleMessage" />
 
-                <RadioButton
-                    android:id="@+id/fouty6to50"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
-                    android:checked="false"
-                    android:onClick="onRadioButtonClicked"
-                    android:text="46 - 50"
-                    android:theme="@style/textViewStyle" />
 
-                <RadioButton
-                    android:id="@+id/fiftyplus"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
-                    android:checked="false"
-                    android:gravity="center_vertical|center_horizontal"
-                    android:onClick="onRadioButtonClicked"
-                    android:text="50+"
-                    android:theme="@style/textViewStyle" />
             </RadioGroup>
 
             <TextView
-                android:id="@+id/tvAgePoint"
+                android:id="@+id/tvEducationPoint"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_margin="4dp"
-                android:layout_toRightOf="@+id/radioGroupAge"
+                android:layout_below="@+id/radioGroupEducation"
                 android:gravity="center_horizontal"
                 android:text="10"
                 android:theme="@style/textViewStylePoint" />
@@ -149,9 +129,19 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/radioGroupAge"
+                android:layout_below="@+id/tvEducationPoint"
+                android:layout_alignParentLeft="true"
+                android:onClick="educationPreviousClick"
+                android:text="@string/previous"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:theme="@style/PrimaryFlatButton" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvEducationPoint"
                 android:layout_alignParentRight="true"
-                android:onClick="ageNextClick"
+                android:onClick="educationNextClick"
                 android:text="@string/next"
                 android:textSize="16sp"
                 android:textStyle="bold"
