@@ -29,7 +29,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/Black</item>
+        <item name="android:textColor">@color/pointColor</item>
     </style>
 
     <style name="textViewStyleEducation" parent="Theme.AppCompat.Light">
