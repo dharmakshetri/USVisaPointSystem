@@ -46,8 +46,17 @@ class FinalResultActivity : AppCompatActivity() {
 
         setValuesToView()
 
+        displayTotalPoint()
+
+
+
+    }
+
+    private fun displayTotalPoint() {
+
         totalpoint=agePoint+educationPoint+englishPoint+jobPoint+investorPoint+olympicPoint+nobelPoint+spousesPoint
         tvTotalPoint.text=" Your total Point is $totalpoint"
+
         if(totalpoint>=30){
             tvTotalPointMessage.text=resources.getString(R.string.result_yes_message)
             tvTotalPoint.setTextColor(resources.getColor(R.color.pointColor))
@@ -55,13 +64,9 @@ class FinalResultActivity : AppCompatActivity() {
             tvTotalPointMessage.text=resources.getString(R.string.result_no_message)
             tvTotalPoint.setTextColor(resources.getColor(R.color.redAlert))
         }
-
         editor!!.putInt(Common.TOTAL_POINT,totalpoint);
         editor!!.apply()
-
-
     }
-
 
 
     private fun setValuesToView() {
