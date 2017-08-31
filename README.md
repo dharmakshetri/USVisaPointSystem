@@ -25,4 +25,7 @@ website and bills, which is give below links.)
 
 **More About Developer:**
  
-   Personal website: www.dharmakshetri.me and  Professional blog: www.prandroid.com
+ 
+   **Personal website:** www.dharmakshetri.me and **Professional blog:** www.prandroid.com
+   
+   **Download app from google play Store:** https://play.google.com/store/apps/details?id=co.prandroid.usvisapointsystem
