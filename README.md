@@ -5,6 +5,7 @@ work experience, family ties to the United States and other attributes. Alien ap
 highest overall points in a year would be given green cards.(This point calculated from various 
 website and bills, which is give below links.)
 
+**NOTE**: All the resources [**text, graphics, logos, buttons, icons, images,links** ] that are presented on this application were obtained from FREELY accessible source on the internet and are believed to be in public domain until proven otherwise. This App shall not be responsible for any kind of misuses done by you. Liability for errors is expressly disclaimed. Contents are the copyrights of their respective news portal and publisher.
 
 ### Used
 - Kotlin
