@@ -23,6 +23,8 @@ website and bills, which is give below links.)
  - http://www.nbcnews.com/politics/white-house/trump-backs-slashing-legal-immigration-merit-based-system-n788816
  - http://abcnews.go.com/Politics/trump-aims-cut-legal-immigration-legislation/story?id=48985055
  - https://www.theguardian.com/us-news/2017/aug/03/donald-trump-immigration-plan-australian-points-system
+ - http://www.pbs.org/newshour/making-sense/analysis-u-s-benefit-merit-based-immigration-system/
+ - http://thehill.com/blogs/pundits-blog/immigration/347105-points-based-immigration-doesnt-add-up
 
 **More About Developer:**
  
