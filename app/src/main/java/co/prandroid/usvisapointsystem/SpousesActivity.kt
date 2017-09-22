@@ -48,13 +48,12 @@ class SpousesActivity : AppCompatActivity() {
 
     }
 
+    //display ad
     fun adDisplay(){
 
         if (mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
-            println("show ads")
         } else {
-            println("go to next activity")
             beginSecondActivity();
         }
 

@@ -52,6 +52,7 @@ class FinalResultActivity : AppCompatActivity() {
 
     }
 
+    //calculate total point
     private fun displayTotalPoint() {
 
         totalpoint=agePoint+educationPoint+englishPoint+jobPoint+investorPoint+olympicPoint+nobelPoint+spousesPoint
