@@ -15,6 +15,10 @@ website and bills, which is give below links.)
 - Crashlytics
 - Admob
 
+### snapshots
+![Final Point](https://raw.githubusercontent.com/dharmakshetri/USVisaPointSystem/master/Screenshot_1501888784.png)
+![Edu Point](https://raw.githubusercontent.com/dharmakshetri/USVisaPointSystem/master/Screenshot_1501891256.png)
+
 ### Refrences:
  - https://www.cotton.senate.gov/files/documents/170802_New_RAISE_Act_Bill_Text.pdf
  - http://www.cnn.com/2017/08/02/politics/cotton-perdue-trump-bill-point-system-merit-based/index.html
