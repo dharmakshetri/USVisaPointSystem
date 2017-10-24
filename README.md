@@ -16,8 +16,7 @@ website and bills, which is give below links.)
 - Admob
 
 ### snapshots
-![Final Point](https://raw.githubusercontent.com/dharmakshetri/USVisaPointSystem/master/Screenshot_1501888784.png)
-![Edu Point](https://raw.githubusercontent.com/dharmakshetri/USVisaPointSystem/master/Screenshot_1501891256.png)
+<img src="https://raw.githubusercontent.com/dharmakshetri/USVisaPointSystem/master/Screenshot_1501888784.png" widht="100" height="200">   <img src="https://raw.githubusercontent.com/dharmakshetri/USVisaPointSystem/master/Screenshot_1501891256.png" widht="100" height="200"> 
 
 ### Refrences:
  - https://www.cotton.senate.gov/files/documents/170802_New_RAISE_Act_Bill_Text.pdf
@@ -30,8 +29,7 @@ website and bills, which is give below links.)
  - http://www.pbs.org/newshour/making-sense/analysis-u-s-benefit-merit-based-immigration-system/
  - http://thehill.com/blogs/pundits-blog/immigration/347105-points-based-immigration-doesnt-add-up
 
-**More About Developer:**
- 
+#### More About Developer:
  
    **Personal website:** www.dharmakshetri.me and **Professional blog:** www.prandroid.com
    
